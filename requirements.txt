@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+PyPDF2
+groq
+sentence-transformers
+faiss-cpu
+numpy
