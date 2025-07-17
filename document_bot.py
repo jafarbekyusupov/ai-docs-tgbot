@@ -48,6 +48,10 @@ class DocumentBot:
         def handle_clear(message):
             self.handlers.handle_clear(message)
         
+        @self.bot.message_handler(commands=['debug'])
+        def handle_debug(message):
+            self.handlers.handle_debug(message)
+        
         @self.bot.message_handler(content_types=['document'])
         def handle_document(message):
             self.handlers.handle_document(message)
