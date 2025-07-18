@@ -237,6 +237,6 @@ the document processor automatically:
 
 #### AI Docs TGBot @ [`jafarbekyusupov`](https://github.com/jafarbekyusupov)
 
-[⭐ Star this Repo](https://github.com/jafarbekyusupov/ai-docs-tgbot) • [🐛 Report Bug](https://github.com/jafarbekyusupov/ai-docs-tgbot/issues) • [💡 Request **Feature**](https://github.com/jafarbekyusupov/ai-docs-tgbot/issues)
+[⭐ Star this **Repo**](https://github.com/jafarbekyusupov/ai-docs-tgbot) • [🐛 Report **Bug**](https://github.com/jafarbekyusupov/ai-docs-tgbot/issues) • [💡 Request **Feature**](https://github.com/jafarbekyusupov/ai-docs-tgbot/issues)
 
 </div>
