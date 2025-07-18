@@ -38,8 +38,8 @@ AI Document Bot is *Telegram Bot* that transforms **`PDF Documents`** into inter
 
 #### 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/ai-document-bot.git
-cd ai-document-bot
+git clone https://github.com/jafarbekyusupov/ai-docs-tgbot.git
+cd ai-docs-tgbot
 ```
 
 #### 2. Create virtual environment
