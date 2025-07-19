@@ -1,6 +1,6 @@
 from flask import Flask
 import threading
-
+import os
 from config import TELEGRAM_BOT_TOKEN, GROQ_API_KEY
 from document_bot import DocumentBot
 
