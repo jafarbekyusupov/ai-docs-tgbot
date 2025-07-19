@@ -4,3 +4,5 @@ groq
 sentence-transformers
 faiss-cpu
 numpy
+flask
+python-dotenv
