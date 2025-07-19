@@ -18,7 +18,7 @@ class AIProcessor:
     
     def check_ollama(self) -> bool:
         try:
-            greq = requests.get(f"{self.ollama_client.base_url}/api/tags", timeout=10)
+            greq = requests.get(f"{self.ollama_client.base_url}/api/tags", timeout=5)
             greq.raise_for_status()
             
             models_data = greq.json()
@@ -28,15 +28,15 @@ class AIProcessor:
             if models:
                 logger.info(f"available models: {[m['name'] for m in models]}")
             
-            return len(models) > 0
+            return len(models)>0
             
         except requests.exceptions.ConnectionError:
-            logger.warning("ollama server not running or not accessible")
+            logger.warning("ollama not available - using groq only")
             return False
         except Exception as e:
             logger.error(f"error checking ollama: {e}")
             return False
-    
+        
     def get_available_services(self) -> List[str]:
         services = []
         if self.groq_isAvail:
